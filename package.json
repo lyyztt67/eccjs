@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "Simple wrapper around SJCL's ECC Implementation",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/tape/bin/tape"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "chai": "~1.8.1",
     "mocha": "~1.14.0",
-    "tape": "~2.4.2"
+    "tape": "~2.4.2",
+    "pretty-hrtime": "^0.2.1"
   }
 }

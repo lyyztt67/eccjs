@@ -11,7 +11,10 @@ tape('generate & sign valid keys', function (t) {
   var curve = ecc.curves.k256
   var keys = ecc.generate(curve)
 //  console.log('Keys', keys)
-  console.log(keys.private, keys.private.length)
+  
+  console.log('public key', keys.public.length, keys.public)
+  console.log('private key', keys.private.length, keys.private)
+
   var message = hash('hello!')
   var sig = ecc.sign(curve, keys, message)
   console.log('Sig', sig)
