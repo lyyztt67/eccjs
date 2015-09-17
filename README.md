@@ -64,7 +64,7 @@ var signature = ecc.sign(keys.sig, message);
 // Verify matches the text
 var result = ecc.verify(keys.ver, signature, message);
 
-console.log(result); // => trues
+console.log(result); // => true
 ```
 
 ## API
