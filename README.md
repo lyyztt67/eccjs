@@ -1,3 +1,8 @@
+:warning: This project is not maintained, please use https://github.com/indutny/elliptic instead
+
+---
+
+
 ecc.js
 =====
 
